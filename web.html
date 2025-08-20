@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+       <header>
+         <nav id="navbar">
+        <div class="logo">
+            <img src="/Images/logo.png" alt="logo">
+             <h1>DevJobs</h1>
+        </div>
+        <div class="links">
+            <a href="index.html#about">Home</a>
+            <a href="index.html#jobs">Job</a>
+            <a href="index.html#contact">Contact</a>
+            <button>SignUp</button>
+        </div>
+         </nav>
+       </header>
+      
+       <main>
+        <h1>Frontend Developer</h1>
+        <span>TechJobs · Remote</span>
+        <p>We are seeking a talented Frontend Developer to join our dynamic team. As a Frontend Developer, you will be responsible for implementing visual elements that users see and interact with in a web application. You will work closely with our UI/UX designers and backend developers to ensure the technical feasibility of UI/UX designs and optimize applications for maximum speed and scalability. Your role is crucial in delivering a seamless and engaging user experience.</p>
+        <p class="small-text">We are seeking a talented Frontend Developer to join our dynamic team. As a Frontend Developer, you will be responsible for implementing visual elements that users see and interact with in a web application.
+        <span id="read-more" style="color:#0D80F2; cursor:pointer; text-decoration:underline;">Read More</span>
+       </p>
+         <form action="">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"  placeholder="Enter your email address" required>
+
+            <label for="resume">Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" placeholder="Upload your resume">
+             
+            <label for="experience">Experience</label>
+             <input type="number" id="experience" name="experience" placeholder="Select Your Experience" required>
+              
+            <label for="info">Additional Information</label>
+            <textarea id="info" name="info" rows="4" cols="50" placeholder="Any additional information you want to provide"></textarea> 
+
+             <button type="submit">Submit Application</button>
+         </form>
+       </main>
+
+       <script src="web.js"></script>
+</body>
+</html>
